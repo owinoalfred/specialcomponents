@@ -4,27 +4,23 @@ module.exports = {
   theme: {
     extend: {
       animation:{
-        blob:'blob 3s infinite'
+        blob:'blob 4s infinite'
       },
       keyframes:{
         blob:{
           '0%':{
-            transform: "scale(1)"
+            transform: " translate(0px, 0px) scale(1)"
           },
           '33%':{
-            transform: "scale(1.2)"
+            transform: " translate(30px, -50px) scale(1.1)"
           },
-          '50%':{
-            transform: "scale(1.4)"
-          },
+
           '66%':{
-            transform: "scale(1.2)"
+            transform: " translate(-20px, 20px) scale(0.9)"
           },
-          '85%':{
-            transform: "scale(1.1)"
-          },
+
           '100%':{
-            transform: "scale(1)"
+            transform: "  translate(0px, 0px) scale(1)"
           }
         }
 

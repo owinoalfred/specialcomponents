@@ -2,13 +2,13 @@
   <div class="bg-gray-50 min-h-screen flex items-center justify-center px-16">
     <div class="w-full relative max-w-lg">
       <div
-        class="absolute left-20 filter opacity-70  blur-xl mix-blend-multiply -bottom-12 w-72 h-72 bg-purple-300 rounded-full"
+        class="absolute left-20 filter opacity-70  blur-xl mix-blend-multiply -bottom-12 w-72 h-72 bg-purple-300 rounded-full animate-blob animation-delay-2000 "
       ></div>
       <div
-        class="absolute top-0 filter opacity-70 blur-xl -right-4 mix-blend-multiply w-72 h-72 bg-yellow-300 rounded-full animate-blob"
+        class="absolute top-0 filter opacity-70 blur-xl -right-4 mix-blend-multiply w-72 h-72 bg-yellow-300 rounded-full animate-blob "
       ></div>
       <div
-        class="absolute top-0 filter opacity-70 blur-xl -left-4 mix-blend-multiply w-72 h-72 bg-green-300 rounded-full"
+        class="absolute top-0 filter opacity-70 blur-xl -left-4 mix-blend-multiply w-72 h-72 bg-green-300 rounded-full animate-blob animation-delay-4000"
       ></div>
       <div class="m-8 relative opacity- space-y-4">
         <div
@@ -30,6 +30,18 @@
           <div class="w-28 h-6 rounded-lg bg-yellow-300"></div>
         </div>
       </div>
+       <buttons class="z-0" />
     </div>
   </div>
 </template>
+
+<style>
+
+  .animation-delay-2000{
+    animation-delay:2s;
+  }
+   .animation-delay-4000{
+    animation-delay:4s;
+  }
+
+</style>
